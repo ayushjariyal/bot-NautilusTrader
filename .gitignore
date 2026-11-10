@@ -1,0 +1,14 @@
+# Virtual environment: rebuilt from requirements files, never committed.
+.venv/
+
+# Secrets: the real .env holds Bybit API keys. Only .env.example is committed.
+.env
+
+# Python and pytest caches.
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Files written by NautilusTrader while running (logs, local state).
+logs/
+*.log

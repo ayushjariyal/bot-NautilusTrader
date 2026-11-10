@@ -1,0 +1,6 @@
+# Packages the trading application needs at runtime.
+#
+# The version is pinned with "==" on purpose. NautilusTrader changes its API between
+# releases (version 2.0 replaces TradingNode with a new LiveNode builder), so an
+# unpinned install could silently give us code that no longer matches this project.
+nautilus_trader==1.231.0

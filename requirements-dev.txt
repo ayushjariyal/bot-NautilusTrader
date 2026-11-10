@@ -1,0 +1,5 @@
+# Packages needed only for development: running tests and building the learning PDFs.
+# They are kept out of requirements.txt so the trading app itself stays minimal.
+-r requirements.txt
+pytest==9.2.0
+reportlab==5.1.0
